@@ -328,6 +328,18 @@ section{
   height: 400px;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
+  transition: 0.40s;
+}
+
+.img-container-7 img{
+  transition: 0.40s;
+  transform: scale(1.2);
+}
+
+.img-container-7 img:hover{
+  transform: scale(1);
+  transition: 0.40s;
 }
 
 .text-container-15{
